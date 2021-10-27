@@ -1,7 +1,7 @@
 
 **Taro's personal memo**
 
-作業前にはダウンロードをして最新版に作業するようにする
+Before work
 
 ```
 git status
@@ -10,7 +10,7 @@ git pull (download the changes)
 git stash (temporary remove the local changes)
 ```
 
-作業後は以下のプロセスにてファイルをGitにアップロード
+After work
 ```
 git status
 git add -u
