@@ -1,28 +1,15 @@
+**Data Science for Business 2021 Term Project**
 
-**Taro's personal memo**
+Cecilia Liu
 
-Before work
+Taro Hizume
 
-```
-git status
-git fetch (fetch the remote version)
-git pull (download the changes)
-git stash (temporary remove the local changes)
-```
 
-After work
-```
-git status
-git add -u
-git commit -m “your message”
-git push
-```
+Files:
+- data
+    - survey.csv: Dataset from [Mental Health in Tech](https://www.kaggle.com/osmi/mental-health-in-tech-survey)
+    - churn.csv, commentInteractions.csv, comments_clean_anonymized.csv: [Daily Happiness & Employee Turnover](https://www.kaggle.com/harriken/employeeturnover)
 
-Resolve conflicts
-```
-before your commit, “git stash” your change, and do a “git pull”.
-“git stash apply” or “git stash pop” your previous change to your working directory. You might then see many conflicts.
-Go inside the code and manually resolve those conflicts.
-Commit your resolved files
-git push
-```
+- Descriptive Analysis - Mental Health Dataset .ipynb: Notebook that contains descriptive analysis on the "Mental Health in Tech" dataset
+- Descriptive Analysis - Happiness Dataset: Notebook that contains descriptive analysis on the "Daily Happiness & Employee Turnover" dataset
+- Model (Snapshot) - Happiness Dataset: Notebook that shows the process of data cleaning, model creation, evaluation and profit curve generation on the "Daily Happiness & Employee Turnover" dataset
